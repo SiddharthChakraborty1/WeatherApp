@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     char current  = (char) data;
                     result += current;
+                    Log.d("this",result);
                     data = reader.read();
 
                 }
